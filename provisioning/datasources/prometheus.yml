@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: "Prometheus"
+    type: "prometheus"
+    access: "proxy"
+    url: https://jackprom.onrender.com/
+    uid: "daea2b01-a1e6-4f0e-929b-a9738cc815f4"
+    isDefault: true
